@@ -6,6 +6,7 @@ args = None
 def do_something():
     log.debug('Debug print')
     log.info('Info print')
+    print('sup')
 
 def main():
     global args
